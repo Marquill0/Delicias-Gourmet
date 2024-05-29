@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'fuente1';
+    src: url('auxiliares/encabezado/NEWS706B.TTF') format('.TTF'),       
+}
+@font-face {
+    font-family: 'fuente2';
+    src: url('auxiliares/encabezado/NEWS706I.TTF') format('.TTF'),       
+}
+@font-face {
+    font-family: 'fuente3';
+    src: url('auxiliares/encabezado/NEWS706N.TTF') format('.TTF'),       
+}
+@font-face {
+    font-family: 'fuente4';
+    src: url('auxiliares/NotoSansJP-Bold.otf') format('.TTF'),       
+}
+@font-face {
+    font-family: 'fuente5';
+    src: url('auxiliares/NotoSansJP-Medium.otf') format('.TTF'),       
+}
+@font-face {
+    font-family: 'fuente6';
+    src: url('auxiliares/NotoSansJP-Regular.otf') format('.TTF'),       
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "fuente1", sans-serif;
+    background-color: #fefef6;
+}
+
+img{
+    max-width: 100%; /*ancho maximo de las imagenes*/
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4),
+    ),
+    url();
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0 0 0;
+}

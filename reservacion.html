@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Delicias Gourmet</title>
+    <style>
+        :root {
+            --color-primary: #e8c564;
+            --color-secondary: #515150;
+          }
+
+        body {
+            font-family: Arial, sans-serif;/*indica que se utilizará la fuente Arial si está disponible, y si no, se utilizará cualquier otra fuente sans-serif predeterminada del sistema*/
+            margin: 0; /*Establece el margen exterior del cuerpo (body) en 0, lo que significa que no habrá espacio entre el borde del cuerpo y el borde del navegador*/
+            padding: 0;/* Establece el relleno interno del cuerpo (body) en 0, lo que significa que no habrá espacio entre el contenido del cuerpo y su borde*/
+            background-image: url(./image/restaurant/reservation2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;  /* Opcional: ajusta el tamaño de la imagen para cubrir todo el fondo */
+            background-position: center; 
+            height: 100vh; 
+            color: rgb(243, 234, 234);
+          
+
+        }  h1 {
+            font-family: 'Times New Roman', Times, serif; /* Cambia la fuente del título h1 a Times New Roman o una fuente serif genérica */
+            font-size: 48px !important; /* El important indica al navegador que este estilo tiene prioridad sobre cualquier otro estilo que pueda estar aplicado al mismo elemento.*/           
+        }
+
+        
+        section {
+            margin: 60px; /* para poner el margen del marco*/
+        }
+ 
+        
+        form {
+            border: 2px solid #b9b30b;
+            border-radius: 10px; /* Redondea las esquinas del borde */
+            background-color: rgba(34, 34, 33, 0.678);
+            padding: 20px; /*mover el borde del cuadro,ponerlo mas ancho o mas estrecho*/
+            max-width: 600px; /*ancho del cuadro*/
+            margin: 60px auto;/* centrar el marco horizontal*/
+            font-size: 20px; /* Aumenta el tamaño de fuente de las celdas */
+            text-align: center;  /*Centra el contenido del formulario */
+            backdrop-filter: blur(7px);
+        }
+        label { /*Permite aplicar estilos específicos a los textos de los formularios mediante CSS, lo que contribuye a la coherencia visual de la página */
+            display: block;
+            text-align: center; /* Alinea el texto de las etiquetas al centro */
+            margin-top: 10px;/* el margen o espacio q hay entre cada texto*/
+            color: rgb(247, 243, 243); 
+            font-weight: bold; /* Agrega negrita a las etiquetas */
+        }
+        input[type="date"], /*asegura que los campos de entrada de tipo fecha y texto tengan un ancho del 100%, un relleno interno */
+        input[type="text"] {
+            width: 50%;/* seleccionados al 50 del ancho disponible dentro de su contenedor*/
+            padding: 7px; /*crea un espacio entre el borde del campo y el texto*/
+            margin-top: 20px;
+            font-size: 14px; /* Aumenta el tamaño de fuente de los campos de texto */
+            border-radius: 5px; /* Agrega bordes redondeados a los campos de texto */
+            display: block;
+            margin: 0 auto;
+        }
+        
+        input[type="submit"],
+        input[type="button"] {
+            padding: 15px 25px; /* Aumenta el relleno interno de los botones */
+            margin-top: 20px;/* crea un espacio entre el botón y los elementos que están arriba de él, ayudando a separar visualmente el botón de otros contenidos.*/
+            border: none;/* Elimina cualquier borde alrededor del botón.*/
+            cursor: pointer;/* Cambia el cursor del mouse a una mano cuando se coloca sobre el botón, indicando que es interactivo y se puede hacer clic*/
+            font-size: 16px; /* Aumenta el tamaño de fuente de los botones */
+            border-radius: 5px; /* Agrega bordes redondeados a los botones */
+         }
+
+         .btn-reservar {
+            background-color: var(--color-primary);
+            color: var(--color-secondary);/* el color del texto del botón en blanco*/
+
+         }
+
+         .btn-cancelar {
+            background-color: #282829; /*color de fondo del botón.*/
+            color: #fff;/* el color del texto del botón en blanco*/
+
+         }
+         
+         input[type="button"]:hover {
+         background-color: var(--color-secondary);
+        } 
+        input[type="submit"]:hover{
+        background-color: var(--color-secondary); 
+        color: #fff;/* el color del texto del botón en blanco*/
+    }
+
+        footer {
+            text-align: center;
+            margin-top: 50px; 
+            margin-top: 20px;
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <section>
+        <h1>Reservar Mesas</h1>
+        <form action="">
+            <fieldset style="border: 1px solid rgba(255, 255, 255, 0.5);">
+                <legend>Datos de la Reservación</legend>
+                <label for="fech">Fecha de la Reservación:</label>
+                <input type="date" name="fech" id="fech">
+
+                 <label for="tm">Tipo de Mesa:</label>
+                <input type="text" id="tm" name="tm">
+
+                <label for="disp">Disponibilidad:</label>
+                <input type="text" id="disp" name="disp">
+
+                <label for="mr">Mesas a Reservar:</label>
+                <input type="text" name="mr" id="mr">
+            </fieldset>
+            <input class="btn-reservar" type="submit" id="sbm_reservar" value="Reservar">
+            <input class="btn-cancelar" type="button" id="bt_cancelar" value="Cancelar">
+        </form>
+          </section>
+
+    <footer>
+        <label>Restaurant Delicias Gourmet</label>
+    </footer>
+</body>
+</html>

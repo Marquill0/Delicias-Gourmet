@@ -1,0 +1,157 @@
+Para un principiante en el desarrollo web que desea crear un sitio web funcional para un restaurante, aquí tienes una guía paso a paso:
+
+    Aprender lo Básico: Familiarízate con HTML, CSS y JavaScript, que son las tecnologías fundamentales para crear sitios web. Hay muchos recursos gratuitos y pagos en línea para aprender estos lenguajes.
+
+    Planificación: Define el propósito y los objetivos del sitio web. ¿Qué funcionalidades necesitas? ¿Menú en línea, sistema de reservas, galería de fotos, formulario de contacto?
+
+    Diseño: Haz un boceto de cómo te gustaría que se viera el sitio. Puedes usar herramientas como Figma o Adobe XD para crear un prototipo.
+
+    Desarrollo:
+        Frontend: Utiliza HTML para estructurar tu contenido, CSS para el diseño y JavaScript para interactividad.
+        Backend (opcional): Si necesitas manejar reservas o pedidos, podrías necesitar aprender sobre bases de datos y un lenguaje de servidor como PHP, Python o usar un framework como Node.js.
+
+    CMS: Considera usar un sistema de gestión de contenido (CMS) como WordPress para facilitar la administración del contenido sin necesidad de codificar.
+
+    Hosting y Dominio: Elige un servicio de hosting y compra un dominio para tu sitio web. Hay opciones como Bluehost, HostGator o SiteGround que ofrecen facilidades para principiantes.
+
+    Desarrollo Responsivo: Asegúrate de que tu sitio web se vea bien en dispositivos móviles y de escritorio.
+
+    SEO: Aprende sobre optimización de motores de búsqueda (SEO) para mejorar la visibilidad de tu sitio en Google y otros motores de búsqueda.
+
+    Pruebas: Antes de lanzar, prueba tu sitio en diferentes navegadores y dispositivos para asegurarte de que todo funcione correctamente.
+
+    Lanzamiento: Una vez que estés satisfecho con el sitio, publícalo en tu hosting y comparte la URL con clientes y amigos.
+
+    Mantenimiento: Actualiza regularmente el contenido, realiza copias de seguridad y mantente al tanto de las actualizaciones de seguridad.
+
+
+composer create-project laravel/laravel:^8.0 ProyectoPW
+
+
+Menu
+
+## Entrantes
+1. Ensalada César
+2. Gazpacho Andaluz
+3. Croquetas de Jamón
+4. Patatas Bravas
+5. Calamares a la Romana
+6. Gambas al Ajillo
+7. Pimientos de Padrón
+8. Tortilla Española
+9. Tabla de Quesos
+10. Tabla de Embutidos
+11. Alcachofas a la Plancha
+12. Pulpo a la Gallega
+13. Mejillones a la Marinera
+14. Boquerones en Vinagre
+15. Huevos Rotos con Jamón
+16. Espárragos Trigueros a la Plancha
+17. Pisto Manchego
+18. Salmorejo Cordobés
+19. Berenjenas Fritas con Miel
+20. Albóndigas en Salsa
+
+
+## Platos Principales
+1. Paella Valenciana
+2. Cocido Madrileño
+3. Fabada Asturiana
+4. Bacalao a la Vizcaína
+5. Merluza a la Sidra
+6. Rabo de Toro
+7. Carrilleras al Vino Tinto
+8. Pollo al Ajillo
+9. Solomillo al Whisky
+10. Lomo de Cerdo a la Naranja
+11. Pimientos Rellenos de Bacalao
+12. Callos a la Madrileña
+13. Fideuá de Mariscos
+14. Arroz Negro con Calamares
+15. Trucha a la Navarra
+16. Cordero al Horno
+17. Pisto con Huevo
+18. Revuelto de Setas
+19. Lentejas con Chorizo
+20. Alubias Blancas con Almejas
+
+
+## Postres
+1. Tarta de Queso
+2. Flan de Vainilla
+3. Arroz con Leche
+4. Tarta de Santiago
+5. Crema Catalana
+6. Torrijas
+7. Leche Frita
+8. Natillas
+9. Tocino de Cielo
+10. Tarta de Manzana
+11. Pudin de Pan
+12. Tarta de Chocolate
+13. Profiteroles con Chocolate
+14. Mousse de Limón
+15. Tarta de Zanahoria
+16. Brownie con Helado de Vainilla
+17. Tiramisú
+18. Cheesecake de Frutos Rojos
+19. Tarta de Limón y Merengue
+20. Tarta de Almendras
+
+
+
+## Bebidas
+1. Vino Tinto
+2. Vino Blanco
+3. Vino Rosado
+4. Cerveza Rubia
+5. Cerveza Tostada
+6. Cerveza sin Alcohol
+7. Refresco de Cola
+8. Refresco de Naranja
+9. Refresco de Limón
+10. Agua con Gas
+11. Agua sin Gas
+12. Café
+13. Té
+14. Zumo de Naranja
+15. Zumo de Manzana
+16. Zumo de Piña
+17. Zumo de Melocotón
+18. Batido de Chocolate
+19. Batido de Fresa
+20. Batido de Vainilla
+
+
+
+Entrantes
+
+    Ceviche Peruano
+    Empanadas Argentinas
+    Arepas Venezolanas
+    Tamales Mexicanos
+    Patacones Colombianos
+
+Platos Principales
+
+    Asado Argentino
+    Feijoada Brasileña
+    Bandeja Paisa Colombiana
+    Pabellón Criollo Venezolano
+    Pollo a la Brasa Peruano
+
+Postres
+
+    Alfajores Argentinos
+    Tres Leches Nicaragüense
+    Flan de Coco Cubano
+    Dulce de Leche Chileno
+    Pastel de Tres Leches Mexicano
+
+Bebidas
+
+    Pisco Sour Peruano
+    Caipirinha Brasileña
+    Aguardiente Colombiano
+    Margarita Mexicana
+    Malbec Argentino
